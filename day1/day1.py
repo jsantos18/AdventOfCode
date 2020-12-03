@@ -1,6 +1,6 @@
 if __name__ == '__main__':
     expense_array = []
-    with open('./input.txt') as file:
+    with open('day1/input.txt') as file:
         for line in file:
             expense_array.append(int(line))
     for i in range(len(expense_array)):
